@@ -26,6 +26,9 @@ vim.opt.number = true
 -- Enable relative line numbers
 vim.opt.relativenumber = true
 
+vim.opt.scrolloff = 999
+
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
