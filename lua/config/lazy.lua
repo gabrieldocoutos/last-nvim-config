@@ -20,6 +20,11 @@ vim.opt.rtp:prepend(lazypath)
 -- This is also a good place to setup other settings (vim.opt)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
+-- Enable line numbers
+vim.opt.number = true
+
+-- Enable relative line numbers
+vim.opt.relativenumber = true
 
 -- Setup lazy.nvim
 require("lazy").setup({
